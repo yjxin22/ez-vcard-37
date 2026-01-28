@@ -1,2 +1,22 @@
 # ez-vcard-37
-Bug 37 from ez-vcard
+
+Bug reproduction for ez-vcard issue #37
+
+## Structure
+```
+ez-vcard-37/
+├── src/
+│   └── main/
+│       └── java/
+│           └── org/
+│               └── example/
+│                   └── *.java
+├── bug.json
+├── pom.xml
+└── README.md
+```
+
+## Build
+```bash
+mvn clean compile
+```
